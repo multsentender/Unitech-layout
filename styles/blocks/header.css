@@ -1,0 +1,31 @@
+/* Header */
+
+.header{
+	display: grid;
+	padding: 0 16px;
+	grid-template-columns: min-content 1fr;
+	justify-content: space-between;
+	align-items: center;
+	gap: 10%;
+	margin: 10px 20px 0;
+	background-color: var(--white);
+}
+
+@media (min-width: 840px) {
+	.header{
+		padding: 0 24px;
+	}
+}
+
+
+/* Logo */
+
+.logo{
+	display: block;
+	font-family: Roboto, sans-serif;
+	color: var(--accent);
+	font-size: 2rem;
+	font-weight: lighter;
+	letter-spacing: -1px;
+	line-height: 1.3em;
+}

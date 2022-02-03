@@ -1,0 +1,11 @@
+{
+  "name": "grid-menu",
+  "version": "1.0.0",
+  "description": "Адаптивное меню на гридах",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mlt",
+  "license": "ISC"
+}

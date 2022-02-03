@@ -1,0 +1,97 @@
+/* Custom link */
+
+.link{
+	display: grid;
+	grid-auto-flow: column;
+	gap: 15px;
+	align-items: center;
+	text-decoration: none;
+	padding: 5px 6px 5px 20px;
+	border-radius: 25px;
+	transition: all ease .2s;
+}
+
+.link__text{
+	font-size: 18px;
+	font-weight: bold;
+	transition: all ease .2s;
+}
+
+.link__icon{
+	background-color: transparent;
+	border: 1px solid var(--accent);
+	border-radius: 20px;
+	fill: var(--accent);
+	padding-left: 10px;
+	padding-top: 11px;
+	transition: all ease .2s;
+}
+
+/* Empty link */
+
+.link--empty .link__text{
+	color: var(--accent);
+}
+
+.link--empty:hover .link__icon{
+	background-color: var(--accent);
+	fill: var(--white);
+}
+
+
+/* Bordered link */
+
+.link--bordered{
+	border: 1px solid transparent;
+	color: var(--accent);
+}
+
+.link--bordered:hover{
+	border: 1px solid var(--accent);
+}
+
+.link--bordered:hover .link__icon{
+	background-color: var(--accent);
+	fill: var(--white);
+}
+
+/* Fill link */
+
+.link--fill{
+	border: 1px solid var(--accent);
+	color: var(--accent);
+}
+
+.link--fill:hover{
+	background-color: var(--accent);
+}
+
+.link--fill:hover .link__text{
+	color: var(--white);
+}
+
+.link--fill:hover .link__icon{
+	background-color: var(--accent);
+	fill: var(--white);
+}
+
+
+/* Darked link */
+.link--darked .link__text{
+	color: var(--white);
+}
+
+.link--darked .link__icon{
+	border: 1px solid var(--white);
+	background-color: var(--white);
+}
+
+.link--darked:hover .link__text{
+	color: var(--accent);
+}
+
+.link--darked:hover .link__icon{
+	border: 1px solid var(--accent);
+	background-color: var(--accent);
+	fill: var(--white);
+}

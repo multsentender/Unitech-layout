@@ -1,9 +1,13 @@
 /* Variables */
 
 :root{
+	/* Colors */
 	--white: #fff;
 	--accent: #1d53bb;
 	--dark: #111921;
 	--semi-dark: #263544;
 	--semi-white: #f4f6f9;
+
+	/* Sizes */
+	--strict-indertetion: 20px;
 }
